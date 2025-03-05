@@ -13,6 +13,7 @@
 # Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 
 # BRUTE FORCE O(N^2)
+
 class Solution(object):
     def runningSum(self, nums):
         prefix_nums = len(nums) * [0]
